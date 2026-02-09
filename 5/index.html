@@ -55,9 +55,10 @@
                     <input type="text" id="month-input" placeholder="شهر" maxlength="2" autocomplete="off">
                     <input type="text" id="year-input" placeholder="سنة" maxlength="4" autocomplete="off">
                 </div>
-                <button onclick="checkPassword()" id="login-btn">دخول <i class="fas fa-arrow-left"></i></button>
+                <button onclick="checkPassword()" id="login-btn">دوسي هنا لفتح قلبي <i
+                        class="fas fa-heart"></i></button>
+                <p id="error-message" class="error-msg"></p>
             </div>
-            <p id="error-message" class="error-msg"></p>
         </div>
     </section>
 
@@ -66,7 +67,7 @@
 
         <!-- Header -->
         <header>
-            <div class="logo">Our Story</div>
+            <div class="logo">Ahmed <span style="color:var(--accent-color)">∞</span> Basmala</div>
             <nav>
                 <ul>
                     <li onclick="showSection('home')"><i class="fas fa-home"></i> الرئيسية</li>
@@ -95,6 +96,7 @@
                         <div class="time-unit"><span id="days">0</span><label>يوم</label></div>
                         <div class="time-unit"><span id="hours">0</span><label>ساعة</label></div>
                         <div class="time-unit"><span id="minutes">0</span><label>دقيقة</label></div>
+                        <div class="time-unit"><span id="seconds">0</span><label>ثانية</label></div>
                     </div>
 
                     <button class="cta-btn" onclick="showSection('messages')">شوفي الرسالة الأولى ❤️</button>
